@@ -7,6 +7,10 @@ page {
   justify-content: flex-start;
 }
 
+.text-logo{
+  font-size: 40px;
+}
+
 .userinfo, .uploader, .tunnel {
   margin-top: 40rpx;
   height: 140rpx;
@@ -134,4 +138,9 @@ page {
   font-size: 24rpx;
   line-height: 36rpx;
   word-break: break-all;
+}
+
+.footer{
+  font-size: 12px;
+  padding: 10px;
 }

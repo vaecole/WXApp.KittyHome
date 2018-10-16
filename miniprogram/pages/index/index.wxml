@@ -1,18 +1,19 @@
 <!--index.wxml-->
 <view class="container">
 
+  <view class="text-logo">Kitty Home</view>
   <!-- 用户 openid -->
-  <view class="userinfo">
+  <!--view class="userinfo">
     <button 
       open-type="getUserInfo" 
       bindgetuserinfo="onGetUserInfo"
       class="userinfo-avatar"
       style="background-image: url({{avatarUrl}})"
     ></button>
-    <!--view>
+    <view>
       <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
-    </view-->
-  </view>
+    </view>
+  </view-->
 
 
   <!-- 上传图片 -->
@@ -34,10 +35,23 @@
   </view-->
 
   <!-- 新建云函数 -->
-  <view class="uploader">
+  <!--view class="uploader">
     <navigator url="../addFunction/addFunction" open-type="navigate" class="uploader-text">
       <text>Help Homeless Cats</text>
     </navigator>
+  </view-->
+
+  <view class="uploader">
+    <navigator url="../board/catBook" open-type="navigate" class="uploader-text">
+      <text>申请领养</text>
+    </navigator>
   </view>
 
+    <view class="uploader">
+    <navigator url="../publish/publish" open-type="navigate" class="uploader-text">
+      <text>发布领养信息</text>
+    </navigator>
+  </view>
+
+  <view class='footer'>Kitty Home® 是国内猫咪同城领养平台，你可以在此发布猫猫领养信息，也可以找到自己的猫咪新伙伴！</view>
 </view>
