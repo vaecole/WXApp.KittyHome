@@ -1,1 +1,12 @@
 /* miniprogram/pages/publish/publish.wxss */
+
+.text-input{
+  border-width: 1px;
+  border-color: black;
+}
+
+.headline
+{
+  font-size: 30px;
+  font-weight: 40;
+}

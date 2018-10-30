@@ -2,44 +2,12 @@
 <view class="container">
 
   <view class="text-logo">Kitty Home</view>
-  <!-- 用户 openid -->
-  <!--view class="userinfo">
-    <button 
-      open-type="getUserInfo" 
-      bindgetuserinfo="onGetUserInfo"
-      class="userinfo-avatar"
-      style="background-image: url({{avatarUrl}})"
-    ></button>
-    <view>
-      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
-    </view>
-  </view-->
 
-
-  <!-- 上传图片 -->
-  <!--view class="uploader">
-    <view class="uploader-text" bindtap="doUpload">
-      <text>上传图片</text>
-    </view>
-    <view class="uploader-container" wx:if="{{imgUrl}}">
-      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
-    </view>
-  </view-->
-
-
-  <!-- 操作数据库 -->
-  <!--view class="uploader">
-    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
-      <text>前端操作数据库</text>
+  <view class="uploader">
+    <navigator url="../samples/index/index" open-type="navigate" class="uploader-text">
+      <text>示例</text>
     </navigator>
-  </view-->
-
-  <!-- 新建云函数 -->
-  <!--view class="uploader">
-    <navigator url="../addFunction/addFunction" open-type="navigate" class="uploader-text">
-      <text>Help Homeless Cats</text>
-    </navigator>
-  </view-->
+  </view>
 
   <view class="uploader">
     <navigator url="../board/catBook" open-type="navigate" class="uploader-text">
@@ -47,9 +15,15 @@
     </navigator>
   </view>
 
-    <view class="uploader">
+  <view class="uploader">
     <navigator url="../publish/publish" open-type="navigate" class="uploader-text">
       <text>发布领养信息</text>
+    </navigator>
+  </view>
+  
+  <view class="uploader">
+    <navigator url="../myCat/myCat" open-type="navigate" class="uploader-text">
+      <text>我的Kitty</text>
     </navigator>
   </view>
 

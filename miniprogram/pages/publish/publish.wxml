@@ -1,2 +1,22 @@
 <!--miniprogram/pages/publish/publish.wxml-->
-<text>发布领养信息</text>
+<view class="container">
+  <view class="guide">
+    <text class="headline">发布领养</text>
+    <view>
+    <text class="p">领养标题</text>
+    <input class="text-input" bindinput='bindKeyInput1' />
+    <text class="p">领养描述</text>
+    <textarea bindinput='bindKeyInput2'></textarea>
+    <text class="p">宠物年龄</text>
+    <input class="text-input" bindinput='bindKeyInput3' />
+    <text class="p">发布者姓名</text>
+    <input class="text-input" bindinput='bindKeyInput4' />
+    <text class="p">电话</text>
+    <input class="text-input" bindinput='bindKeyInput5' />
+    <text class="p">身份证号</text>
+    <input class="text-input" type="idcard" bindinput='bindKeyInput6' />
+    </view>
+    <view wx:if="{{submitEnabled == true}}"><button bindtap="onSubmit">提交审核</button></view>
+  </view>
+
+</view>

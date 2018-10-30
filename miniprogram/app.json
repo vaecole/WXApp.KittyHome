@@ -2,14 +2,16 @@
   "cloud": true,
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
+    "pages/samples/index/index",
+    "pages/samples/userConsole/userConsole",
+    "pages/samples/storageConsole/storageConsole",
+    "pages/samples/databaseGuide/databaseGuide",
+    "pages/samples/addFunction/addFunction",
+    "pages/samples/deployFunctions/deployFunctions",
+    "pages/samples/chooseLib/chooseLib",
     "pages/board/catBook",
-    "pages/publish/publish"
+    "pages/publish/publish",
+    "pages/myCat/myCat"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

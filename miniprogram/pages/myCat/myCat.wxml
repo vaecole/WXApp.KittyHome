@@ -1,0 +1,5 @@
+<!--miniprogram/pages/myCat/myCat.wxml-->
+<view class="container">
+<text class="headline">发布/领养记录</text>
+
+</view>
